@@ -1,2 +1,2 @@
-# copa-do-gatinho
-Projeto de pratica que apresenta HTML e CSS
+# copa-do-mundo
+Projeto que apresenta conhecimentos em HTML 5 e CSS 3

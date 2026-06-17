@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copa 2026</title>
 
-<link id="tema" rel="stylesheet" href="./css/stylea.css">
+    <link id="tema" rel="stylesheet" href="./css/stylea.css">
 
 </head>
 
@@ -38,7 +38,35 @@
 
         </p>
 
+        <button onclick="trocarTema()">
+
+            Trocar tema
+        </button>
+
     </div>
+
+    <script>
+
+
+        let temaAtual = "stylea";
+        function trocarTema() {
+            const link = document.getElementById("tema");
+
+            if (temaAtual === "stylea"){
+                link.href = "./css/styleb.css"
+                temaAtual = "styleb"
+
+
+            } else {
+                link.href = "./css/stylea.css"
+                 temaAtual = "stylea"
+            }
+
+
+
+        }
+
+    </script>
 
 
 </body>
